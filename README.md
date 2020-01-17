@@ -7,7 +7,7 @@ This bibfile should contain all of my read papers and books for easy referencing
 ## Templates
 
 ### Article
-article{uniquename,
+@article{uniquename,
     title={},
     author={Name, Full},
     journal={},
@@ -16,10 +16,10 @@ article{uniquename,
 }
 
 ### Website
-misc{web:weburl,
+@oneline{uniquename,
     author={},
     title={},
-    year={},
     url={},
+    urldate={YYYY-MM-DD},
     note={}
 }
