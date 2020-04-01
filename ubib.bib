@@ -1,90 +1,105 @@
 % Templates
 article{uniquename,
-    title={},
-    author={Name, Full},
-    journal={},
-    pages={},
-    year={}
+    title   = {},
+    author  = {Name, Full},
+    journal = {},
+    pages   = {},
+    year    = {}
 }
 
-misc{weburl,
-    author={},
-    title={},
-    year={},
-    url={},
-    note={}
+online{weburl,
+    author  = {},
+    title   = {},
+    urldate = {},
+    url     = {},
+    note    = {}
 }
 
 @article{brown2012stm32,
-    title={Discovering the STM32 microcontroller},
-    author={Brown, Geoffrey},
-    journal={Cortex},
-    volume={3},
-    pages={34},
-    year={2012}
+    title   = {Discovering the STM32 microcontroller},
+    author  = {Brown, Geoffrey},
+    journal = {Cortex},
+    volume  = {3},
+    pages   = {34},
+    year    = {2012}
 }
 
 @book{asche2016embedded,
-    title={Embedded Controller},
-    author={Asche, R\"udiger R},
-    publisher={Springer},
-    volume={1},
-    year={2016}
+    title     = {Embedded Controller},
+    author    = {Asche, R\"udiger R},
+    publisher = {Springer},
+    volume    = {1},
+    year      = {2016}
 }
 
 @book{yiu2013cortexguide,
-    title={The Definitive Guide to ARM{\textregistered} Cortex{\textregistered}-M3 and Cortex{\textregistered}-M4 Processors},
-    author={Yiu, Joseph},
-    year={2013},
-    publisher={Newnes}
+    title     = {The Definitive Guide to ARM{\textregistered} Cortex{\textregistered}-M3 and Cortex{\textregistered}-M4 Processors},
+    author    = {Yiu, Joseph},
+    year      = {2013},
+    publisher = {Newnes}
 }
 
-@misc{platformio,
-    author = {PlatformIO},
-    note = {\href{http://docs.platformio.org/en/latest/}{PlatformIO Docs} [accessed 2017/11/14; Revision 448e0f27]}
+@online{platformio,
+    title   = {PlatformIO},
+    url     = {http://docs.platformio.org/en/latest/},
+    urldate = {2017-11-14},
+    note    = {Revision 448e0f27}
 }
 
 @manual{stm32f407vg_disco,
-  title        = {UM1472},
-  author       = {STMicroelectronics}, 
-  organization = {STMicroelectronics},
-  year         = 2017,
-  note         = {Overview}
+    title        = {UM1472},
+    author       = {STMicroelectronics},
+    organization = {STMicroelectronics},
+    year         = 2017,
+    note         = {Overview}
 }
 
-@misc{stm,
+@online{stm,
     author = {STMicroelectronics},
-    note   = {\href{https://www.st.com}{st.com} [accessed 2018/01/10]}
+    url    = {https://www.st.com},
+    urldate = {2018-01-10}
 }
 
-@misc{stm32f4,
-    author = {STMicroelectronics},
-    note   = {\href{http://www.st.com/en/microcontrollers/stm32f4-series.html}{STM32F4 Family Website} [accessed 2018/01/11]}
+@online{stm32f4,
+    author  = {STMicroelectronics},
+    url     = {http://www.st.com/en/microcontrollers/stm32f4-series.html},
+    note    = {STM32F4 Family Website},
+    urldate = {2018-01-11}
 }
 
-@misc{chibios,
-    author = {Giovanni di Sirio},
-    note   = {\url{http://www.chibios.org/dokuwiki/doku.php} [accessed 2018/01/11]}
+@online{chibios,
+    title   = {ChibiOS},
+    author  = {Giovanni di Sirio},
+    url     = {http://www.chibios.org/dokuwiki/doku.php},
+    urldate = {2018-01-11}
 }
 
-@misc{stm32f4usartpintable,
-    author = {Tilen Majerle},
-    note   = {\href{https://stm32f4-discovery.net/2014/04/library-04-connect-stm32f429-discovery-to-computer-with-usart/}{U(S)ART pin-table for STM32F4 Boards} [accessed 2018/01/11]}
+@online{stm32f4usartpintable,
+    author  = {Tilen Majerle},
+    url     = {https://stm32f4-discovery.net/2014/04/library-04-connect-stm32f429-discovery-to-computer-with-usart/},
+    title   = {U(S)ART pin-table for STM32F4 Boards},
+    urldate = {2018-01-11}
 }
 
-@misc{stm32f4i2cpintable,
-    author = {Tilen Majerle},
-    note   = {\href{https://stm32f4-discovery.net/2015/07/hal-library-16-i2c-for-stm32fxxx-devices/}{I$^2$C pin-table for STM32F4 Boards} [accessed 2018/01/11]}
+@online{stm32f4i2cpintable,
+    author  = {Tilen Majerle},
+    url     = {https://stm32f4-discovery.net/2015/07/hal-library-16-i2c-for-stm32fxxx-devices/},
+    title   = {I$^2$C pin-table for STM32F4 Boards},
+    urldate = {2018-01-11}
 }
 
-@misc{texane/stlink,
-    author = {@texane},
-    note   = {\href{https://github.com/texane/stlink}{github: texane/stlink} [accessed 2018/03/05]} 
+@online{texane/stlink,
+    author  = {@texane},
+    url     = {https://github.com/texane/stlink},
+    title   = {github: texane/stlink},
+    urldate = {2018-03-05}
 }
 
-@misc{armmbed/os,
-    author = {Mbed},
-    note   = {\href{https://os.mbed.com/}{Mbed OS} [accessed 2018/03/05]}
+@online{armmbed/os,
+    author  = {Mbed},
+    url     = {https://os.mbed.com/},
+    note    = {Mbed OS},
+    urldate = {2018-03-05}
 }
 
 @manual{stm32f405xx,
@@ -95,19 +110,23 @@ misc{weburl,
     note         = {\url{http://www.st.com/en/microcontrollers/stm32f405rg.html}}
 }
 
-@misc{waf,
-    author = {},
-    note   = {\href{https://waf.io/}{waf.io} [accessed 2018/03/22]}    
+@online{waf,
+    title = {Waf},
+    url   = {https://waf.io/},
+    urldate = {2018-03-22}
 }
 
-@misc{chibios/forum,
-    author = {},
-    note   = {\href{http://www.chibios.com/forum/}{ChibiOS Forum} [accessed 2018/03/02]}
+@online{chibios/forum,
+    url     = {http://www.chibios.com/forum/},
+    title   = {ChibiOS Forum},
+    urldate = {2018-03-02}
 }
 
-@misc{chibios/forum/i2cslave,
-    author = {steved},
-    note   = {\href{http://www.chibios.com/forum/viewtopic.php?f=16&t=3020}{i2c Slave Mode - ChibiOS Forum} [accessed 2018/03/27]}
+@online{chibios/forum/i2cslave,
+    author  = {steved},
+    url     = {http://www.chibios.com/forum/viewtopic.php?f = 16&t = 3020},
+    title   = {i2c Slave Mode - ChibiOS Forum},
+    urldate = {2018-03-27}
 }
 
 @manual{hbpguidebook,
@@ -126,87 +145,83 @@ misc{weburl,
     note         = {\url{https://electronicvisions.github.io/hbp-sp9-guidebook/pm/pm_hardware_configuration.html}}
 }
 
-@misc{piocmsis,
+@online{piocmsis,
     author = {ARM},
-    note = {\href{http://docs.platformio.org/en/latest/frameworks/cmsis.html}{PIO - CMSIS}}
+    url    = {http://docs.platformio.org/en/latest/frameworks/cmsis.html},
+    title  = {PIO - CMSIS}
 }
 
-@misc{piombed,
+@online{piombed,
     author = {mbed},
-    note = {\href{http://docs.platformio.org/en/latest/frameworks/mbed.html}{PIO - mbed}}
+    url    = {http://docs.platformio.org/en/latest/frameworks/mbed.html},
+    title  = {PIO - mbed}
 }
 
-@misc{piostm32cube,
+@online{piostm32cube,
     author = {STM},
-    note = {\href{http://docs.platformio.org/en/latest/frameworks/stm32cube.html}{PIO - STM32Cube}}
+    url    = {http://docs.platformio.org/en/latest/frameworks/stm32cube.html},
+    title  = {PIO - STM32Cube}
 }
 
-@misc{chibios/docs,
-    author = {Giovanni di Sirio},
-    note = {\url{http://www.chibios.org/dokuwiki/doku.php}[accessed 2018/03/31]}
+@online{chibios/docs,
+    author  = {Giovanni di Sirio},
+    url     = {http://www.chibios.org/dokuwiki/doku.php},
+    urldate = {2018-03-31},
+    title   = {ChibiOS Documentation}
 }
 
 @article{poweritupgrade,
     author = {Patrick Nisble},
-    title = {Firmware Upgrade des Powerit (DE)},
-    year = {2018},
-    memo = {HD-KIP 18-62},
-    note = {\url{https://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3722}}
+    title  = {Firmware Upgrade des Powerit (DE)},
+    year   = {2018},
+    memo   = {HD-KIP 18-62},
+    note   = {\url{https://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id = 3722}}
 }
 
 @manual{pth08t,
-    title = {PTH08T250W Datasheet},
+    title        = {PTH08T250W Datasheet},
     organization = {Texas Instruments},
-    year = {2017},
-    note = {\url{http://www.ti.com/product/PTH08T250W}}
+    year         = {2017},
+    note         = {\url{http://www.ti.com/product/PTH08T250W}}
 }
 
 @manual{diffopamp,
-    title = {AMC1200/B Fully-Differential Isolation Amplifier},
+    title        = {AMC1200/B Fully-Differential Isolation Amplifier},
     organization = {TexasInstruments},
-    year = {2015},
-    note = {\url{http://www.ti.com/product/AMC1200/technicaldocuments}}
+    year         = {2015},
+    note         = {\url{http://www.ti.com/product/AMC1200/technicaldocuments}}
 }
 
 @manual{anabpower,
-    title = {Analog Pin Distributions},
+    title        = {Analog Pin Distributions},
     organization = {electronic visions, Universtity of Heidelberg},
-    year = {2016},
-    author = {Dan Husman}
+    year         = {2016},
+    author       = {Dan Husman}
 }
 
 @manual{mcp4152,
-    title = {SPI Digital POT with Volatile Memory},
+    title        = {SPI Digital POT with Volatile Memory},
     organization = {Microchip Technology},
-    year = {2008},
-    note={\url{https://www.microchip.com/wwwproducts/en/MCP4152}}
+    year         = {2008},
+    note         = {\url{https://www.microchip.com/wwwproducts/en/MCP4152}}
 }
 
 @article{nightmares,
-    title = {Konzeptoptimierung und Entwicklung einer hochintegrierten Leiterplatte},
+    title  = {Konzeptoptimierung und Entwicklung einer hochintegrierten Leiterplatte},
     author = {Maurice G\"{u}ttler},
-    year = {2010},
-    memo = {HD-KIP 10-68},
-    note = {\url{http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=2111}}
+    year   = {2010},
+    memo   = {HD-KIP 10-68},
+    note   = {\url{http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id = 2111}}
 }
 
 @misc{waferembedding,
-            year = {2017},
-         address = {Heidelberg},
-           title = {Achieving a Higher Integration Level of Neuromorphic Hardware using Wafer Embedding},
-          author = {Gilbert Maurice G{\"u}ttler},
-            note = {\url{http://doi.org/10.11588/heidok.00023723}},
-        abstract = {This thesis investigates the application of a chip packaging technology on a silicon wafer for a neuromorphic hardware system. The procedure embeds a complete silicon wafer into a printed circuit board (PCB). The embedding procedure was developed together with the Fraunhofer Institute for Reliability and Microintegration in Berlin. At first bare silicon disks were embedded into PCBs to find the correct material selection and the suitable stack up.
-        Finally, the HICANN wafers of the Electronic Visions Group, which are employed in the BrainScaleS system, were embedded into PCBs. For that reason 20 cm wafers are thinned down to 250 {\ensuremath{\mu}}m and the redistribution layer (RDL) pads get an additional copper layer. The Deep EvolutioN in System Embedding (DENSE) board has two copper layers and uses microvias for the connections to the wafer. Existing software of the BrainScaleS system is used to test and characterize the DENSE board. The tests cover the communication to the wafer and the functionality of the analog parameter storage and the neuron circuits.
-        It is shown that the embedding process has no influence on the circuits and on the RDLs of the wafer. Additionally, the long-term reliability of the board was tested in a climate cabinet by conducting an accelerated environmental stress test. No failures were observable on the DENSE board.},
-        keywords = {Silicon, Wafer, Embedding, PCB, Neuromorphic Hardware, HICANN}
-}
-
-@manual{vicormods,
-    title={5:1 Intermediate Bus Converter Module: Up to 500W Output},
-    organization={VICOR Corporation},
-    year={2016},
-    note={\url{http://www.vicorpower.com/documents/datasheets/vibrick/ds_IB0xxE096T48xx-xx.pdf}}
+    year     = {2017},
+    address  = {Heidelberg},
+    title    = {Achieving a Higher Integration Level of Neuromorphic Hardware using Wafer Embedding},
+    author   = {Gilbert Maurice G{\"u}ttler},
+    note     = {\url{http://doi.org/10.11588/heidok.00023723}},
+    abstract = {This thesis investigates the application of a chip packaging technology on a silicon wafer for a neuromorphic hardware system. The procedure embeds a complete silicon wafer into a printed circuit board (PCB). The embedding procedure was developed together with the Fraunhofer Institute for Reliability and Microintegration in Berlin. At first bare silicon disks were embedded into PCBs to find the correct material selection and the suitable stack up. Finally, the HICANN wafers of the Electronic Visions Group, which are employed in the BrainScaleS system, were embedded into PCBs. For that reason 20 cm wafers are thinned down to 250 {\ensuremath{\mu}}m and the redistribution layer (RDL) pads get an additional copper layer. The Deep EvolutioN in System Embedding (DENSE) board has two copper layers and uses microvias for the connections to the wafer. Existing software of the BrainScaleS system is used to test and characterize the DENSE board. The tests cover the communication to the wafer and the functionality of the analog parameter storage and the neuron circuits. It is shown that the embedding process has no influence on the circuits and on the RDLs of the wafer. Additionally, the long-term reliability of the board was tested in a climate cabinet by conducting an accelerated environmental stress test. No failures were observable on the DENSE board.},
+    keywords = {Silicon, Wafer, Embedding, PCB, Neuromorphic Hardware, HICANN}
 }
 
 @article{hwang98,
@@ -214,4 +229,43 @@ misc{weburl,
     author={Kai Hwang, Zhiwei Zu},
     year=1998,
     note={WCB/McGraw-Hill}
+}
+
+@manual{vicormods,
+    title        = {5:1 Intermediate Bus Converter Module: Up to 500W Output},
+    organization = {VICOR Corporation},
+    year         = {2016},
+    note         = {\url{http://www.vicorpower.com/documents/datasheets/vibrick/ds_IB0xxE096T48xx-xx.pdf}}
+}
+
+@inproceedings{cummings1999correct,
+    title     = {Correct Methods For Adding Delays To Verilog Behavioral Models},
+    author    = {Cummings, Clifford},
+    booktitle = {International HDL Conference 1999 Proceedings},
+    pages     = {23--29},
+    year      = {1999}
+}
+
+@article{gulati17,
+    title   = {Design of 16 bit 180nm CMOS Fully Segmented DAC},
+    author  = {Gulati, Neha},
+    journal = {IJETTCS Vol.6 Iss.2},
+    pages   = {3},
+    year    = {2017}
+}
+
+@article{kaur14,
+    title   = {Design and Analysis of 4:1 Multiplexer using an efficient reversible logic in 180nm},
+    author  = {Kaur, Gurpreet and Sharma, Narinder},
+    journal = {IJETTCS Vol.1 Iss.2},
+    pages   = {6},
+    year    = {2014}
+}
+
+@article{sowjanya16,
+    title   = {Implementation of 4-bit R-2R DAC on CADENCE Tools},
+    author  = {Sowjanya, A.},
+    journal = {IJEDR},
+    pages   = {6},
+    year    = {2016}
 }
