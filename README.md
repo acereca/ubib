@@ -7,6 +7,8 @@ This bibfile should contain all of my read papers and books for easy referencing
 ## Templates
 
 ### Article
+
+```bibtex
 @article{uniquename,
     title={},
     author={Name, Full},
@@ -14,8 +16,10 @@ This bibfile should contain all of my read papers and books for easy referencing
     pages={},
     year={}
 }
+```
 
 ### Website
+```bibtex
 @oneline{uniquename,
     author={},
     title={},
@@ -23,3 +27,4 @@ This bibfile should contain all of my read papers and books for easy referencing
     urldate={YYYY-MM-DD},
     note={}
 }
+```
